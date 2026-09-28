@@ -1,0 +1,20 @@
+header .container {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding-block: 40px;
+}
+
+#profile img {
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+header h1 {
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+    margin-bottom: 8px;
+}
